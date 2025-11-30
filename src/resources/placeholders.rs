@@ -12,6 +12,7 @@ pub struct ExchangeRateRates {}
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub struct IssuingAuthorizationAmountDetails {}
 
+#[allow(dead_code)]
 #[derive(Clone, Debug, Default, Deserialize, Serialize)]
 pub struct NotificationEventData {}
 

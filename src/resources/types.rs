@@ -197,6 +197,7 @@ pub enum ApiVersion {
     #[serde(rename = "2023-10-16")]
     V2023_10_16,
     #[serde(rename = "2025-03-31.basil")]
+    #[allow(non_camel_case_types)]
     V2025_03_31_BASIL,
 }
 
